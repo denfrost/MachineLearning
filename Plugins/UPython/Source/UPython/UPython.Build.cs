@@ -26,7 +26,12 @@ public class UPython : ModuleRules
 			new string[]
 			{
 				"Core",
+                "CoreUObject", 
+                "Engine", 
+                "InputCore", 
+                "HeadMountedDisplay",
 				"UPythonLibrary",
+                "PythonBridge",
 				"Projects"
 				// ... add other public dependencies that you statically link with here ...
 			}

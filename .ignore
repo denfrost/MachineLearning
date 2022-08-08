@@ -1,0 +1,10 @@
+.git
+.vs
+.vscode
+Content
+DerivedDataCache
+Intermediate
+Saved
+Script
+Plugins/UPython/Content
+Plugins/UPython/Intermediate
