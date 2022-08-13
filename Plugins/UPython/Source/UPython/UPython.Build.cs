@@ -11,7 +11,8 @@ public class UPython : ModuleRules
 		PublicIncludePaths.AddRange(
 			new string[] {
 				// ... add public include paths required here ...
-			}
+                "$(PluginDir)/Source/ThirdParty/PythonBridge/thirdparty/Win/Python/Include"
+            }
 			);
 				
 		
